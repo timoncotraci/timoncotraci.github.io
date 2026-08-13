@@ -1045,3 +1045,102 @@ footer {
     }
 
 }
+/* ================================
+ENGINEERING CONTENT
+================================ */
+
+.engineering-content {
+margin-top: 70px;
+max-width: 1000px;
+}
+
+.engineering-category {
+margin-bottom: 80px;
+}
+
+.engineering-category h3 {
+font-size: clamp(35px, 5vw, 60px);
+line-height: 1;
+letter-spacing: -3px;
+margin-bottom: 40px;
+}
+
+.engineering-projects {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+}
+
+.engineering-project {
+border: 1px solid #555;
+padding: 30px;
+}
+
+.engineering-project h4 {
+font-size: 22px;
+line-height: 1.2;
+margin-bottom: 15px;
+}
+
+.engineering-project p {
+font-size: 14px;
+opacity: 0.7;
+}
+
+/* ================================
+MUSIC CONTENT
+================================ */
+
+.music-content {
+margin-top: 70px;
+max-width: 800px;
+}
+
+.music-category {
+margin-bottom: 60px;
+}
+
+.music-category p {
+font-size: 20px;
+max-width: 650px;
+}
+
+.music-category a {
+font-size: 20px;
+font-weight: 700;
+text-decoration: underline;
+}
+
+.music-category a:hover {
+opacity: 0.6;
+}
+
+/* ================================
+ENGINEERING + MUSIC MOBILE
+================================ */
+
+@media (max-width: 700px) {
+
+.engineering-content,
+.music-content {
+    margin-top: 50px;
+}
+
+.engineering-projects {
+    grid-template-columns: 1fr;
+}
+
+.engineering-project {
+    padding: 25px;
+}
+
+.engineering-project h4 {
+    font-size: 20px;
+}
+
+.music-category p,
+.music-category a {
+    font-size: 17px;
+}
+
+}
