@@ -270,7 +270,7 @@ section {
 
 .creative-grid img {
     width: 100%;
-    height: 420px;
+    height: 280px;
 
     display: block;
 
@@ -293,7 +293,7 @@ section {
 }
 
 .creative-category:nth-child(2) .creative-grid img {
-    height: 500px;
+    height: 350px;
 }
 
 
