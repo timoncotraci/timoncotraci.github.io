@@ -1144,3 +1144,224 @@ ENGINEERING + MUSIC MOBILE
 }
 
 }
+/* ================================
+   VA POSITIONING
+================================ */
+
+.hero-services {
+    max-width: 700px;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-top: -15px;
+    margin-bottom: 35px;
+}
+
+
+/* ================================
+   VA SERVICES
+================================ */
+
+.services {
+    background: #dedbd5;
+    color: #171717;
+}
+
+.services h2,
+.why-me h2 {
+    font-size: clamp(45px, 7vw, 90px);
+
+    line-height: 0.95;
+
+    letter-spacing: -4px;
+
+    margin-bottom: 70px;
+}
+
+.services-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+.service-card {
+    min-height: 280px;
+
+    padding: 35px;
+
+    border: 1px solid #171717;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    background: #171717;
+    color: #ffffff;
+
+    transform: translateY(-8px);
+}
+
+.service-card .card-number {
+    margin-bottom: auto;
+}
+
+.service-card h3 {
+    font-size: 32px;
+
+    line-height: 1;
+
+    letter-spacing: -2px;
+
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    max-width: 450px;
+
+    font-size: 16px;
+}
+
+
+/* ================================
+   WHY WORK WITH ME
+================================ */
+
+.why-me {
+    background: #f5f2ed;
+    color: #171717;
+}
+
+.why-me-content {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+
+    max-width: 1000px;
+}
+
+.why-me-item {
+    min-height: 250px;
+
+    padding: 35px;
+
+    border: 1px solid #171717;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: 0.3s ease;
+}
+
+.why-me-item:hover {
+    background: #171717;
+    color: #ffffff;
+
+    transform: translateY(-8px);
+}
+
+.why-me-item .card-number {
+    margin-bottom: auto;
+}
+
+.why-me-item h3 {
+    font-size: 32px;
+
+    line-height: 1;
+
+    letter-spacing: -2px;
+
+    margin-bottom: 15px;
+}
+
+.why-me-item p {
+    max-width: 450px;
+
+    font-size: 16px;
+}
+
+
+/* ================================
+   CONTACT DESCRIPTION
+================================ */
+
+.contact-description {
+    max-width: 650px;
+
+    font-size: 20px;
+
+    margin-bottom: 35px;
+}
+
+
+/* ================================
+   VA MOBILE
+================================ */
+
+@media (max-width: 700px) {
+
+    .hero-services {
+        font-size: 10px;
+
+        line-height: 1.8;
+
+        letter-spacing: 1.5px;
+
+        margin-top: -10px;
+    }
+
+    .services h2,
+    .why-me h2 {
+        font-size: 55px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        min-height: 250px;
+
+        padding: 25px;
+    }
+
+    .service-card h3 {
+        font-size: 28px;
+    }
+
+    .service-card p {
+        font-size: 15px;
+    }
+
+    .why-me-content {
+        grid-template-columns: 1fr;
+    }
+
+    .why-me-item {
+        min-height: 230px;
+
+        padding: 25px;
+    }
+
+    .why-me-item h3 {
+        font-size: 28px;
+    }
+
+    .why-me-item p {
+        font-size: 15px;
+    }
+
+    .contact-description {
+        font-size: 17px;
+    }
+
+}
