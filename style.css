@@ -1365,3 +1365,40 @@ ENGINEERING + MUSIC MOBILE
     }
 
 }
+/* ================================
+   SERVICES — TABLET + MOBILE FIX
+================================ */
+
+.service-card {
+    border: 1px solid #171717 !important;
+}
+
+
+/* Tablet */
+@media (min-width: 701px) and (max-width: 1024px) {
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .service-card {
+        border: 1px solid #171717 !important;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .service-card {
+        border: 1px solid #171717 !important;
+    }
+
+}
