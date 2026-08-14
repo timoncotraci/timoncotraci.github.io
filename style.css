@@ -1375,16 +1375,20 @@ ENGINEERING + MUSIC MOBILE
 
 
 /* Tablet */
-@media (min-width: 701px) and (max-width: 1024px) {
+@media (max-width: 700px) {
 
     .services-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 20px;
     }
 
-    .service-card {
+    .services .service-card {
         border: 1px solid #171717 !important;
+        outline: 1px solid #171717;
+        outline-offset: -1px;
     }
+
+}
 
 }
 
@@ -1401,4 +1405,13 @@ ENGINEERING + MUSIC MOBILE
         border: 1px solid #171717 !important;
     }
 
+}
+/* =================================
+   FORCE SERVICE CARD BORDERS
+================================= */
+
+.services .service-card {
+    border: 1px solid #171717 !important;
+    outline: 1px solid #171717;
+    outline-offset: -1px;
 }
